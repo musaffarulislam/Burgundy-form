@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import logo from "../assets/burgundylogo.jpeg"
 
 const Form2 = () => {
@@ -6,7 +6,7 @@ const Form2 = () => {
   const searchParams = new URLSearchParams(window.location.search);
   const accessToken = searchParams.get('access_token');
 
-  const CLIENT_ID = "13711522951728837232";
+  const CLIENT_ID = "12341455927517011904";
 
   const REDIRECT_URL = window.location.href;
   const AUTH_URL = `https://www.phone.email/auth/log-in?client_id=${CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
