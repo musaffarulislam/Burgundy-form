@@ -22,7 +22,7 @@ const Form2 = () => {
     <div className="w-full mt-4">
       {!accessToken && (
         <div className="flex items-center justify-center mt-8">
-          <div className="text-center bg-white p-6 rounded shadow-md w-full max-w-sm">
+          <div className="text-center bg-white p-6 rounded shadow-2xl w-full max-w-sm">
             <img src={logo} className="object-cover aspect-[5/2]"
               alt="phone email login demo" />
             <h1 className="text-lg font-bold">View Menu</h1>
