@@ -27,16 +27,16 @@ const Form = () => {
             <div className='p-6'>
               <img src={logo} className="object-cover" alt="Burgundy" />
             </div>
-            <div className='my-4'>
-              <div className='w-11/12'>
+            <div className='my-2'>
+              <div className='w-10/12'>
                 <img src={food} className="object-cover transform -scale-x-100" alt="Food" />
               </div>
               <div className='px-6 text-left'>
-                <h1 className="font-bebas text-5xl font-bold text-orange-600">Craving Something?</h1>
+                <h1 className="font-bebas text-5xl font-bold text-orange-600 whitespace-nowrap">Craving Something?</h1>
                 <p className="font-exo font-medium text-xl text-gray-500">Let's get you started !!</p>
               </div>
             </div>
-            <div className='p-6 mt-12'>
+            <div className='p-6 mt-10'>
               <button
                 className="flex items-center justify-center bg-yellow-950 text-white font-bold py-3 px-6 rounded w-full"
                 id="btn_ph_login"
