@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{html,js,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        bebas: ["Bebas Neue", "sans-serif"],
+        exo: ["Exo", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
